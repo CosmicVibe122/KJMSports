@@ -1,0 +1,199 @@
+/*Estilos para el blog*/
+.noticias {
+    padding: 20px;
+}
+
+.caso {
+    background: #e0e0e0;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.caso img {
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 150px;
+    background: #fff;
+}
+
+.caso .text {
+    margin-left: 20px;
+}
+
+.caso button {
+    padding: 5px 10px;
+}
+
+.footer {
+    background: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el formulario de contacto*/
+.contact-form-container {
+    background: #f2f2f2;
+    border: 2px solid #bbb;
+    padding: 30px 24px 24px 24px;
+    min-width: 270px;
+    max-width: 430px;
+    margin: 40px auto 0 auto;
+    border-radius: 5px;
+}
+
+.contact-form-title {
+    background: #ccc;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    margin: -30px -24px 15px -24px;
+    border-bottom: 2px solid #bbb;
+    border-radius: 3px 3px 0 0;
+}
+
+.form-label {
+    font-size: 13px;
+    margin-top: 12px;
+    display: block;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 2px;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-textarea {
+    height: 60px;
+    resize: vertical;
+}
+
+.form-submit {
+    background: #eee;
+    border: 1px solid #888;
+    padding: 10px 0;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.form-submit:hover {
+    background: #ddd;
+}
+
+.error {
+    color: #b40000;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.success-message {
+    margin-top: 15px;
+    color: #008000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Estilo del swiper*/
+.swiper {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.mySwiper {
+    width: 650px !important;
+    /* Fuerza el ancho para alinearse con el iframe */
+}
+
+#wrapper {
+    margin-left: 15px;
+    padding-left: 5;
+}
+
+#main {
+    margin-left: 15px;
+    padding-left: 5;
+}
+
+.card-img-top {
+    height: 200px;
+    /* Altura fija para todas las imágenes */
+    object-fit: cover;
+    /* Mantiene la proporción y recorta si es necesario */
+    width: 100%;
+    /* Asegura que la imagen ocupe todo el ancho */
+}
+
+/*Estilos de productos*/
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.mini-modal-img {
+    max-width: 70px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.mini-modal-img.selected {
+    border: 2px solid #007bff;
+}
+
+.modal-dialog.my-modal-width {
+    max-width: 500px;
+    width: 95%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.cart-button {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.btn-custom {
+    background-color: #838c8f;
+    border-color: #bd9282;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #6d777e;
+    border-color: #eb920e;
+}
+/*Estilo de errores*/
+.errors {
+    color: black;
+    font-size: 9px;
+    visibility: hidden;
+}
