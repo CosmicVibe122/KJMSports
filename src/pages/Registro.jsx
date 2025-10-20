@@ -53,8 +53,8 @@ function Registro() {
   };
 
   return (
-    <div id="main">
-      <section id="intro" style={{ textAlign: 'center' }}>
+    <div id="main" style={{ alignItems:'center', justifyContent: 'center'}}>
+      <section id="intro" style={{ textAlign: 'center', justifyContent: 'center'}}>
         <a href="#" className="logo"><img src={logoImg} alt="Logo" /></a>
         <header>
           <h2>Registrate!</h2>
@@ -62,7 +62,7 @@ function Registro() {
         </header>
       </section>
 
-      <div className="container">
+      <div className="container" id='' style={{justifyContent: 'center', display: 'flex', backgroundColor: '#ffffffff'}}>
         <form id="form" onSubmit={handleSubmit} noValidate>
           <div>
             <label htmlFor="name">Usuario</label>

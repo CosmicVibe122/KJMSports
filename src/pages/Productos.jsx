@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 import { Modal, Button } from 'react-bootstrap'; // Usamos el Modal de react-bootstrap
-
+import { Dropdown } from 'react-bootstrap';
 // ------------------- IMPORTACIÓN DE IMÁGENES -------------------
 // ¡IMPORTANTE! Asegúrate de tener todas estas imágenes en 'src/assets/images/'
 import zapatoFutbolImg from '../assets/images/zapato_de_futbol.jpg';
@@ -152,8 +152,6 @@ function Productos() {
           </Modal.Footer>
         </Modal>
       )}
-
-      {/* El Footer se renderizará a través del Layout <App />, por lo que no es necesario aquí */}
     </div>
   );
 }

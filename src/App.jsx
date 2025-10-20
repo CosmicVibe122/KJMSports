@@ -12,6 +12,7 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const showSidebar = location.pathname !== '/Productos' && location.pathname !== '/Registro';
   return (
     <div className={isPreload ? 'is-preload' : ''}>
       <div id="wrapper">
@@ -19,9 +20,8 @@ function App() {
         <Menu />
         
         {/* Aquí es donde se renderizará el contenido de cada página */}
-        <Outlet /> 
-        
-        <Sidebar />
+        <Outlet />         
+        {showSidebar && <Sidebar />}        
       </div>
     </div>
   );
