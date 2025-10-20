@@ -33,6 +33,9 @@ function Registro() {
       newErrors.email = "El formato del email no es válido.";
     }
     if (!formData.telefono) newErrors.telefono = "El teléfono es obligatorio.";
+    else if(!/^\+569\d{8}$/.test(formData.telefono)){
+      newErrors.telefono = "El formato del telefono no es válido."
+    }
     
     setErrors(newErrors);
     // Devuelve true si no hay errores

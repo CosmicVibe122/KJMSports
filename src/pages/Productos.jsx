@@ -6,9 +6,8 @@ import { Modal, Button } from 'react-bootstrap'; // Usamos el Modal de react-boo
 // ¡IMPORTANTE! Asegúrate de tener todas estas imágenes en 'src/assets/images/'
 import zapatoFutbolImg from '../assets/images/zapato_de_futbol.jpg';
 import ciclismoImg from '../assets/images/ciclismo3.webp';
-import zapatillaRunningImg from '../assets/images/zapatilla_running.webp';
-import trajeNatacionImg from '../assets/images/traje_natacion.webp';
-import zapato2Img from '../assets/images/'
+
+
 // ... (añade aquí todas las demás imágenes de tus productos)
 
 // ------------------- DATOS DE LOS PRODUCTOS -------------------
@@ -27,20 +26,6 @@ const productsData = [
     precio: 249990,
     caracteristicas: "Zapatilla con apriete seguro y ajustado para máxima potencia.",
     img: ciclismoImg,
-  },
-  {
-    id: "nike-pegasus",
-    nombre: "Nike Pegasus 41",
-    precio: 129990,
-    caracteristicas: "Zapatillas de running versátiles para todo tipo de corredor.",
-    img: zapatillaRunningImg,
-  },
-  {
-    id: "arena-powerskin",
-    nombre: "Traje de Natación Arena",
-    precio: 349990,
-    caracteristicas: "Powerskin Carbon-Core FX Jammer de competición.",
-    img: trajeNatacionImg,
   },
   // ... Añade aquí el resto de tus productos con esta misma estructura
 ];

@@ -3,11 +3,11 @@ import React from 'react';
 function Header() {
   return (
     <header id="header">
-      <h1><a href="index.html">KJM Sports</a></h1>
+      <h1><a href="/">KJM Sports</a></h1>
       <nav className="links">
         <ul>
-          <li><a href="productos3.html">Productos</a></li>
-          <li><a href="registro.html">Unete!</a></li>
+          <li><a href="Productos">Productos</a></li>
+          <li><a href="Registro">Unete!</a></li>
         </ul>
       </nav>
       <nav className="main">
