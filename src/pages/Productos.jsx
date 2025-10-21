@@ -4,9 +4,12 @@ import { Modal, Button } from 'react-bootstrap'; // Usamos el Modal de react-boo
 import { Dropdown } from 'react-bootstrap';
 // ------------------- IMPORTACIÓN DE IMÁGENES -------------------
 // ¡IMPORTANTE! Asegúrate de tener todas estas imágenes en 'src/assets/images/'
-import zapatoFutbolImg from '../assets/images/zapato_de_futbol.jpg';
-import ciclismoImg from '../assets/images/ciclismo3.webp';
-
+import zapatoFutbolImg from '../assets/images/futbol2.png';
+import ciclismoImg from '../assets/images/zapato_bici2.webp';
+import NatacionImg from '../assets/images/natacion1.webp'; 
+import zapatillaRunning from '../assets/images/pelota.jpg'; 
+import guantesGym from '../assets/images/Futbol4.png';
+import poleraTermica from '../assets/images/short.avif';
 
 // ... (añade aquí todas las demás imágenes de tus productos)
 
@@ -17,7 +20,7 @@ const productsData = [
     id: "nike-mercurial",
     nombre: "Nike Mercurial Superfly 10",
     precio: 106990,
-    caracteristicas: "Zapatos de fútbol MG de corte high, diseñados para velocidad.",
+    caracteristicas: "Zapato de Fútbol Sala MG de corte high, diseñados para velocidad.",
     img: zapatoFutbolImg,
   },
   {
@@ -27,6 +30,43 @@ const productsData = [
     caracteristicas: "Zapatilla con apriete seguro y ajustado para máxima potencia.",
     img: ciclismoImg,
   },
+   // 3. Natación (Traje de Baño 1 - ID ÚNICO)
+      {
+          id: "traje-bano-arena-1", // ID ÚNICO
+          nombre: "Traje baño Arena Hombre",
+          precio: 106990,
+          precioOriginal: 149990,
+          caracteristicas: "Traje de baño diseñado para entrenamiento y velocidad.",
+          img: NatacionImg,
+      },
+      // 4. Running
+      {
+          id: "Pelota-futbol-o",
+          nombre: "Pelota Speed Pro",
+          precio: 25990,
+          precioOriginal: 39990,
+          caracteristicas: "Maxima Tecnologia para un mayor Desempeño",
+          img: zapatillaRunning,
+      },
+      // 5. Boxeo / Gimnasio
+      {
+          id: "zapas-futbol-o", // ID ÚNICO
+          nombre: "mercurial Pro 7",
+          precio: 30990,
+          precioOriginal: 49990,
+          caracteristicas: "Maximo Agarre para un mayor desempeño .",
+          img: guantesGym,
+      },
+      // 6. Ropa Técnica
+      {
+          id: "short-termico-o",
+          nombre: "Short Térmico Compresión",
+          precio: 29990,
+          precioOriginal: 45990,
+          caracteristicas: "Regula la temperatura corporal para clima frío.",
+          img: poleraTermica,
+      },
+      
   // ... Añade aquí el resto de tus productos con esta misma estructura
 ];
 

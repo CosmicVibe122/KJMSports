@@ -163,7 +163,7 @@ function Ofertas() {
         <div id="main" className="single">
             <h1 className="text-center">
                 <strong className="text-center mb-4" style={{ fontSize: '50px', color: 'rgb(255, 69, 0)' }}>
-                    ¡OFERTAS IMPERDIBLES DE LA SEMANA! 🔥
+                    ¡OFERTAS IMPERDIBLES DE KJM SPORTS! 🔥
                 </strong>
             </h1>
             <div className="container mt-4">
