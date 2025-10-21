@@ -8,6 +8,7 @@ import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import Productos from './pages/Productos.jsx';
 import Registro from './pages/Registro.jsx';
+import Ofertas from './pages/Ofertas.jsx';
 
 import './index.css';
 import './assets/main.css';
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "registro", // Se accede con /registro
         element: <Registro />,
+      },
+      {
+        path: "ofertas", // Se accede con /registro
+        element: <Ofertas />,
       },
     ],
   },

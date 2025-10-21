@@ -8,6 +8,7 @@ function Header() {
         <ul>
           <li><a href="Productos">Productos</a></li>
           <li><a href="Registro">Unete!</a></li>
+          <li><a href="Ofertas">Ofertas</a></li>
         </ul>
       </nav>
       <nav className="main">

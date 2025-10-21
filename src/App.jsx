@@ -12,7 +12,7 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  const showSidebar = location.pathname !== '/Productos' && location.pathname !== '/Registro';
+  const showSidebar = location.pathname !== '/Productos' && location.pathname !== '/Registro' && location.pathname !== '/Ofertas';
   return (
     <div className={isPreload ? 'is-preload' : ''}>
       <div id="wrapper">
